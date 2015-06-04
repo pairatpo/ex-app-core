@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="ex-app-core">
+<head>
+    <meta charset="utf-8" />
+    <title>ex-app-core</title>
+</head>
+<body>
+    <div class="content">
+        loading ....
+    </div>
+
+    <!-- build:js assets/js/libs.js -->
+    <script src="assets/libs/angular/angular.js"></script>
+    <script src="assets/libs/lodash/lodash.js"></script>
+    <script src="assets/libs/moment/moment.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js release/ex-app-core.min.js -->
+    <!-- core -->
+    <script src="app/core.module.js"></script>
+    <script src="app/lodash/lodashWrapper.js"></script>
+    <script src="app/moment/momentWrapper.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

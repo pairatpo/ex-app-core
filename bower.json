@@ -1,0 +1,36 @@
+{
+    "name": "ex-app-core",
+    "description": "",
+    "version": "0.0.0",
+    "main": [
+        "release/ex-app-core.min.js"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "ex-app-core"
+    ],
+    "authors": [
+        "pairatpo <pairat.poombang@thomsonreuters.com>"
+    ],
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/foo/bar.git"
+    },
+    "dependencies": {
+        "angular": "^1.4.0",
+        "lodash": "^3.5.0",
+        "moment": "^2.9.0"
+    },
+    "exportsOverride": {
+        "moment": {
+            "": [
+                "moment.js",
+                "lang/ja.js",
+                "lang/zh-cn.js"
+            ]
+        }
+    },
+    "devDependencies": {},
+    "private": true
+}
