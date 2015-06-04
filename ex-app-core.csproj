@@ -30,34 +30,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="assets\img\" />
     <Folder Include="assets\libs\" />
     <Folder Include="Properties\" />
+    <Folder Include="release\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
-    <Content Include="app\app.controller.js" />
-    <Content Include="app\app.module.js" />
-    <Content Include="app\app.routes.js" />
-    <Content Include="app\components\about\about.controller.js" />
-    <Content Include="app\components\about\about.module.js" />
-    <Content Include="app\components\about\about.template.html" />
-    <Content Include="app\components\dashboard\dashboard.controller.js" />
-    <Content Include="app\components\dashboard\dashboard.module.js" />
-    <Content Include="app\components\dashboard\dashboard.service.js" />
-    <Content Include="app\components\dashboard\dashboard.template.html" />
-    <Content Include="app\components\dashboard\widgets\widgets.divContent.js" />
-    <Content Include="app\components\dashboard\widgets\widgets.divContent2.js" />
-    <Content Include="app\components\dashboard\widgets\widgets.divNoBase.js" />
-    <Content Include="app\shared\chart\chart.js" />
-    <Content Include="app\shared\core\core.module.js" />
-    <Content Include="app\shared\core\lodash\lodashWrapper.js" />
-    <Content Include="app\shared\core\moment\momentWrapper.js" />
-    <Content Include="app\shared\navigation\navigation.controller.js" />
-    <Content Include="app\shared\navigation\navigation.template.html" />
-    <Content Include="assets\css\base\bootsrap.css" />
-    <Content Include="assets\css\base\main.css" />
-    <Content Include="assets\js\utils\guid.js" />
+    <Content Include="app\core.module.js" />
+    <Content Include="app\lodash\lodashWrapper.js" />
+    <Content Include="app\moment\momentWrapper.js" />
     <Content Include="index.html" />
     <Content Include="Gruntfile.js" />
   </ItemGroup>
