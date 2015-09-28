@@ -1,7 +1,7 @@
 {
     "name": "ex-app-core",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": [
         "release/ex-app-core.min.js"
     ],

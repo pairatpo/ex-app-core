@@ -80,6 +80,15 @@ module.exports = function (grunt) {
                 }]
             }
         },
+
+        bump: {
+            options: {
+                files: ['package.json', 'bower.json'],
+                push: false,
+                createTag: false,
+                commit: false,
+            }
+        },
     });
 
     // Default task(s).
@@ -94,6 +103,7 @@ module.exports = function (grunt) {
         'ngAnnotate',
         'uglify',
         //'cssmin',
-        'usemin'
+        'usemin',
+        'bump'
     ]);
 };
